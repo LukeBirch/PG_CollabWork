@@ -1,15 +1,43 @@
 * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-body {
+    padding-left: 50px;
+    padding-right: 50px;
     
 }
+
+body {
+    background: rgb(231, 235, 238);
+    margin: 0;
+}
+
+img {
+    width: 1400px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
 
 div.navBar {
     padding-top: 20px;
     padding-bottom: 10px;
+    background-color: rgb(51, 47, 77);
+    color: white;
+    margin: 0;
+}
+
+div.info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(51, 47, 77);
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 4px rgb(124, 124, 126));
+}
+
+p {
+    color: white;
 }
 
 h1 {
@@ -17,15 +45,11 @@ h1 {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-weight: bold;
     font-size: 50;
-    padding-bottom: 5px;
-    color:;     
+    padding-top: 10px;
+    padding-bottom: 5px;   
+    color:rgb(51, 47, 77)
 }
 
-p {
-    font-family: ;
-    font-size: ;
-    color: ;
-}
 
 .source {
     font-style: italic;
@@ -51,12 +75,20 @@ li:hover {
 }
 
 table.table {
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 div.form {
     text-align: center;
     padding-top: 0px;
     padding-bottom: 20px;
+}
+
+div.table {
+    padding-top: 40px;
+}
+
+a {
+    color: rgb(51, 47, 77);
 }
