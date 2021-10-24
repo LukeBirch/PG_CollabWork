@@ -1,20 +1,106 @@
-<style>
 * {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
 
+body {
+    background: rgb(231, 235, 238);
+    margin: 0;
+}
+
+img {
+    width: 1400px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+
+div.navBar {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(51, 47, 77);
+    color: white;
+    margin: 0;
+}
+
+div.info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(51, 47, 77);
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 4px rgb(124, 124, 126));
+}
 h2 {
     text-align: center;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-weight: bold;
+    font-size: 50;
+    padding-top: 10px;
     font-size: 10;
     padding-top: 40px;
     padding-bottom: 5px;   
     color:rgb(51, 47, 77)
 }
+p {
+    color: white;
+}
 
+h1 {
+    text-align: center;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: bold;
+    font-size: 50;
+    padding-top: 10px;
+    padding-bottom: 5px;   
+    color:rgb(51, 47, 77)
+}
 p2 {
     color: rgb(0, 0, 0);
 }
 
+.source {
+    font-style: italic;
+    color: rgb(121, 121, 122);
 
-</style>
-</html>
+}
+
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    text-align: center;
+    display: inline;
+    padding: 8px;
+}
+
+li:hover {
+    color: lightblue;
+}
+
+table.table {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+div.form {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+div.table {
+    padding-top: 40px;
+}
+
+a {
+    color: rgb(51, 47, 77);
+}
